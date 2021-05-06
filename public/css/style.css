@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --vertMH : #cfee1d;
+}
+
+textarea{
+    width: 100%;
+}
+textarea, input{
+    padding: 0.75em 1em;
+}
+
+form input, td, textarea{
+    color: black;
+}
+header{
+    text-align: center;
+}
+.lvl{
+    padding-top: 0.5em;
+}
+
+#myTable_wrapper{
+    padding-top: 3em;
+    margin-bottom: 5em;
+}
+
+#createSubject form{
+    width: 100%;
+}
+
+body{
+    background: url("../images/rotten_vale.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.uk-container.uk-container-small{
+    background: rgba(75, 75, 75, 0.897);
+}
+
+#logo img{
+    height: 100%;
+}
+
+#logo{
+    height: 80px;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.623)
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: none;
+}
+
+hr{
+    border-top: 1px solid rgb(151, 167, 184);
+}
+
+.uk-button-primary{
+    background-color: black;
+    border: 1px solid white;
+}
+.uk-button-primary:hover{
+    background-color: var(--vertMH);
+    color: black;
+}
+
+h1{
+    color: var(--vertMH);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h2{
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: white;
+}
+
+#notConnected{
+    width: 100%;
+    height: 10em;
+    background-color:rgb(54, 54, 54);
+    margin-bottom: 2em;
+}
+
+#container{
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
+h3{
+    color: var(--vertMH);
+}
+
+.subjecttitle::before{
+    content: "Sujet : ";
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+}
+a:hover{
+    color : var(--vertMH);
+}
+
+.subjecttitle a{
+    color : var(--vertMH);
+}
+.subjecttitle a:hover{
+    color: #9bb40d;
+}
+
+.post>*, .user>*{
+    padding: 0;
+    margin: 0;
+}
+.post{
+    padding: 1em 3em;
+}
+.post h4{
+    font-weight: bold;
+}
+.post h4::before{
+    content: "Par ";
+    color: var(--vertMH);
+}
+
+#myTable a, #myTableAdmin a{
+    color: #1c7be7;
+}
+#myTable a:hover, #myTableAdmin a:hover{
+    color: #074892;
+}
+
+#inputtitle{
+    margin-bottom: 0.5em;
+}
+
+.message{
+    padding-left: 2em;
+}
+
+#subjectnav{
+    padding-left: 0;
+}
+
+.even td{
+    background:rgb(223, 223, 223);
+}
+
+
+.paginate_button{
+    background-color: black !important;
+    border: 1px solid white !important; 
+}
+.paginate_button:hover{
+    background-color: var(--vertMH) !important;
+    color: black !important;
+}
+
+
+.disabled{
+    background-color: transparent !important;
+    border: 1px solid transparent !important; 
+}
+.disabled:hover{
+    background-color: transparent !important;
+    color: black !important;
+}
+
+select>*{
+    color: black;
+}
+
+.tecenter{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.gris, .bleu, .vert, .rouge, .gold{
+    padding-right: 0.2em;
+}
+
+.gris{
+    color: lightgray;
+}
+.bleu{
+    color: lightskyblue;
+}
+.vert{
+    color: var(--vertMH);
+}
+.rouge{
+    color: rgb(173, 13, 13);
+}
+.gold{
+    color: gold;
+}
+
+.uk-alert-danger.uk-alert{
+    background-color: lightcoral;
+}
+.uk-alert-danger.uk-alert p{
+    color: rgb(85, 2, 2);
+}
+.uk-alert-success.uk-alert{
+    background-color: lightgreen;
+}
+.uk-alert-success.uk-alert p{
+    color: rgb(1, 49, 1);
+}
+.teorange{
+    color: orange;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.836);
+    color: white;
+    padding: 1em;
+}
+
+#container{
+    min-height: 100vh;
+}
+#copy{
+    margin: 0;
+}
